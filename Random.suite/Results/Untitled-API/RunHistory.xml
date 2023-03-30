@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Untitled-API">
+ <run>
+  <RunDate>2018-11-01 15:35:28.673 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.634744</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20181101_153528.673/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

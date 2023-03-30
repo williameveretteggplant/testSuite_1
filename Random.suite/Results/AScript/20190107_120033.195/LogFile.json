@@ -1,0 +1,50 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-07 12:00:33.196 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = True",
+      "timestamp" : "2019-01-07 12:00:33.309 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = False",
+      "timestamp" : "2019-01-07 12:00:35.351 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (373, 608)",
+      "identifier" : "click",
+      "image" : "image0004",
+      "handlerLine" : 4,
+      "timestamp" : "2019-01-07 12:00:35.523 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"2.466827\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-01-07 12:00:33 -0700\", Successes:\"1\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-07 12:00:35.668 -0700"
+    },
+    {
+      "identifier" : "UsabilitySummary",
+      "message" : "Usability Tests: 0, Usability Warnings: 0",
+      "timestamp" : "2019-01-07 12:00:35.669 -0700"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:02 AScript.script",
+      "timestamp" : "2019-01-07 12:00:35.689 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-07 12:00:33.200 -0700"
+}

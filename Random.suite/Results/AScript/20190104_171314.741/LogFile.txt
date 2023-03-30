@@ -1,0 +1,5 @@
+﻿2019-01-04 17:13:14.742 -0700	START		Running AScript.script
+2019-01-04 17:13:14.811 -0700	set		USABILITYMODE = False	1	on_ascript	AScript.script
+2019-01-04 17:13:21.275 -0700	Exception	image0004	No Image Found On Screen: "image0004"	3	on_ascript	AScript.script
+2019-01-04 17:13:21.504 -0700	EndTestCase		(Duration:"6.758759", Errors:"1", Exceptions:"1", StartTime:"2019-01-04 17:13:14 -0700", Successes:"0", TestCase:"AScript.script", Warnings:"0")
+2019-01-04 17:13:21.507 -0700	ABORTED		Execution Time 0:00:06 AScript.script

@@ -1,0 +1,50 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script in Usability Mode",
+      "timestamp" : "2019-01-07 12:01:04.600 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = True",
+      "timestamp" : "2019-01-07 12:01:04.819 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = False",
+      "timestamp" : "2019-01-07 12:01:04.820 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "No Image Found On Screen: \"image0004\"",
+      "identifier" : "Exception",
+      "image" : "image0004",
+      "handlerLine" : 4,
+      "timestamp" : "2019-01-07 12:01:11.540 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"7.165885\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2019-01-07 12:01:04 -0700\", Successes:\"0\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-07 12:01:11.769 -0700"
+    },
+    {
+      "identifier" : "UsabilitySummary",
+      "message" : "Usability Tests: 0, Usability Warnings: 0",
+      "timestamp" : "2019-01-07 12:01:11.771 -0700"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:07 AScript.script",
+      "timestamp" : "2019-01-07 12:01:11.773 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-07 12:01:04.603 -0700"
+}

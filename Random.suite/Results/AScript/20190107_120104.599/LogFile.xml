@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="AScript_script" package="Random.suite" timestamp="2019-01-07 12:01:04.599 -0700"
+ tests="1"  failures="0" errors="0" time="7.169035">
+  <properties>
+   <property name="RunDate" value="2019-01-07 12:01:04.599 -0700"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="AScript.script" assertions="1" status="error"  time="7.165885">
+    <error type="Exception" message="No Image Found On Screen: &quot;image0004&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

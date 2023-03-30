@@ -1,0 +1,46 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-04 17:13:28.210 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = False",
+      "timestamp" : "2019-01-04 17:13:28.259 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (373, 608)",
+      "identifier" : "click",
+      "image" : "image0004",
+      "handlerLine" : 3,
+      "timestamp" : "2019-01-04 17:13:28.397 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (407, 14)",
+      "identifier" : "click",
+      "image" : "image0005",
+      "handlerLine" : 5,
+      "timestamp" : "2019-01-04 17:13:29.238 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"1.184334\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-01-04 17:13:28 -0700\", Successes:\"1\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-04 17:13:29.397 -0700"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:01 AScript.script",
+      "timestamp" : "2019-01-04 17:13:29.416 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-04 17:13:28.213 -0700"
+}

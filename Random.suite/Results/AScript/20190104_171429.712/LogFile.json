@@ -1,0 +1,55 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-04 17:14:29.713 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = False",
+      "timestamp" : "2019-01-04 17:14:29.764 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (373, 608)",
+      "identifier" : "click",
+      "image" : "image0004",
+      "handlerLine" : 3,
+      "timestamp" : "2019-01-04 17:14:29.907 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (407, 14)",
+      "identifier" : "click",
+      "image" : "image0005",
+      "handlerLine" : 5,
+      "timestamp" : "2019-01-04 17:14:30.747 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "No Image Found On Screen: \"Image0004\"",
+      "identifier" : "Exception",
+      "image" : "Image0004",
+      "handlerLine" : 7,
+      "timestamp" : "2019-01-04 17:14:35.482 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"5.996558\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2019-01-04 17:14:29 -0700\", Successes:\"0\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-04 17:14:35.712 -0700"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:05 AScript.script",
+      "timestamp" : "2019-01-04 17:14:35.715 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-04 17:14:29.716 -0700"
+}

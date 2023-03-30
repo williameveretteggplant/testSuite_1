@@ -1,0 +1,12 @@
+﻿2019-01-04 17:14:52.125 -0700	START		Running AScript.script
+2019-01-04 17:14:52.168 -0700	set		USABILITYMODE = True	1	on_ascript	AScript.script
+2019-01-04 17:14:53.158 -0700	Usability		Target: image0004 did not move within time window of 0.7s	3	on_ascript	AScript.script
+2019-01-04 17:14:53.811 -0700	click	image0004	at (373, 608)	3	on_ascript	AScript.script
+2019-01-04 17:14:53.813 -0700	Usability		click on image0004 produced visual feedback	3	on_ascript	AScript.script
+2019-01-04 17:14:55.306 -0700	Usability		Target: image0005 did not move within time window of 0.7s	5	on_ascript	AScript.script
+2019-01-04 17:14:55.955 -0700	click	image0005	at (407, 14)	5	on_ascript	AScript.script
+2019-01-04 17:14:55.957 -0700	UsabilityWarning		click on image0005 did not produce visual feedback	5	on_ascript	AScript.script
+2019-01-04 17:15:04.057 -0700	Exception	Image0004	No Image Found On Screen: "Image0004"	7	on_ascript	AScript.script
+2019-01-04 17:15:04.297 -0700	EndTestCase		(Duration:"12.16928", Errors:"1", Exceptions:"1", StartTime:"2019-01-04 17:14:52 -0700", Successes:"0", TestCase:"AScript.script", Warnings:"0")
+2019-01-04 17:15:04.299 -0700	UsabilitySummary		Usability Tests: 4, Usability Warnings: 1, movingTarget Tests: 2 Warnings: 0, feedbackResponse Tests: 2 Warnings: 1
+2019-01-04 17:15:04.301 -0700	ABORTED		Execution Time 0:00:12 AScript.script

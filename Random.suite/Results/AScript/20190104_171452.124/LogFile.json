@@ -1,0 +1,92 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-04 17:14:52.125 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = True",
+      "timestamp" : "2019-01-04 17:14:52.168 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "Target: image0004 did not move within time window of 0.7s",
+      "timestamp" : "2019-01-04 17:14:53.158 -0700",
+      "identifier" : "Usability",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (373, 608)",
+      "identifier" : "click",
+      "image" : "image0004",
+      "handlerLine" : 3,
+      "timestamp" : "2019-01-04 17:14:53.811 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "click on image0004 produced visual feedback",
+      "timestamp" : "2019-01-04 17:14:53.813 -0700",
+      "identifier" : "Usability",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "Target: image0005 did not move within time window of 0.7s",
+      "timestamp" : "2019-01-04 17:14:55.306 -0700",
+      "identifier" : "Usability",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (407, 14)",
+      "identifier" : "click",
+      "image" : "image0005",
+      "handlerLine" : 5,
+      "timestamp" : "2019-01-04 17:14:55.955 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "click on image0005 did not produce visual feedback",
+      "timestamp" : "2019-01-04 17:14:55.957 -0700",
+      "identifier" : "UsabilityWarning",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "No Image Found On Screen: \"Image0004\"",
+      "identifier" : "Exception",
+      "image" : "Image0004",
+      "handlerLine" : 7,
+      "timestamp" : "2019-01-04 17:15:04.057 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"12.16928\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2019-01-04 17:14:52 -0700\", Successes:\"0\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-04 17:15:04.297 -0700"
+    },
+    {
+      "identifier" : "UsabilitySummary",
+      "message" : "Usability Tests: 4, Usability Warnings: 1, movingTarget Tests: 2 Warnings: 0, feedbackResponse Tests: 2 Warnings: 1",
+      "timestamp" : "2019-01-04 17:15:04.299 -0700"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:12 AScript.script",
+      "timestamp" : "2019-01-04 17:15:04.301 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-04 17:14:52.127 -0700"
+}

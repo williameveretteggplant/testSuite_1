@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="AScript_script" package="Random.suite" timestamp="2019-01-07 11:55:20.650 -0700"
+ tests="1"  failures="0" errors="0" time="0.522726">
+  <properties>
+   <property name="RunDate" value="2019-01-07 11:55:20.650 -0700"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="AScript.script" assertions="1" status="success"  time="0.520214">
+  </testcase>
+ </testsuite>
+</testsuites>

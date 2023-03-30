@@ -1,0 +1,23 @@
+{
+  "entries" : [
+    {
+      "handlerName" : "on_ascript",
+      "success" : true,
+      "message" : "Target: image0004 did not move within time window of 0.7s",
+      "identifier" : "movingTarget",
+      "timestamp" : "2019-01-07 12:04:05.724 -0700",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_ascript",
+      "success" : true,
+      "message" : "click on image0004 produced visual feedback",
+      "identifier" : "feedbackResponse",
+      "timestamp" : "2019-01-07 12:04:06.376 -0700",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 4
+    }
+  ],
+  "createdTimestamp" : "2019-01-07 12:04:04.751 -0700"
+}

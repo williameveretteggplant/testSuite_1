@@ -1,0 +1,36 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-07 11:54:59.352 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = True",
+      "timestamp" : "2019-01-07 11:54:59.447 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = False",
+      "timestamp" : "2019-01-07 11:55:02.600 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 2
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"3.393317\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-01-07 11:54:59 -0700\", Successes:\"1\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-07 11:55:02.749 -0700"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:03 AScript.script",
+      "timestamp" : "2019-01-07 11:55:02.768 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-07 11:54:59.355 -0700"
+}

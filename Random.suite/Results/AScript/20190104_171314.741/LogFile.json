@@ -1,0 +1,37 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-04 17:13:14.742 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = False",
+      "timestamp" : "2019-01-04 17:13:14.811 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "No Image Found On Screen: \"image0004\"",
+      "identifier" : "Exception",
+      "image" : "image0004",
+      "handlerLine" : 3,
+      "timestamp" : "2019-01-04 17:13:21.275 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"6.758759\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2019-01-04 17:13:14 -0700\", Successes:\"0\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-04 17:13:21.504 -0700"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:06 AScript.script",
+      "timestamp" : "2019-01-04 17:13:21.507 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-04 17:13:14.745 -0700"
+}

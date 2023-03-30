@@ -1,0 +1,41 @@
+{
+  "entries" : [
+    {
+      "handlerName" : "on_ascript",
+      "success" : true,
+      "message" : "Target: image0004 did not move within time window of 0.7s",
+      "identifier" : "movingTarget",
+      "timestamp" : "2019-01-04 17:14:53.161 -0700",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_ascript",
+      "success" : true,
+      "message" : "click on image0004 produced visual feedback",
+      "identifier" : "feedbackResponse",
+      "timestamp" : "2019-01-04 17:14:53.816 -0700",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_ascript",
+      "success" : true,
+      "message" : "Target: image0005 did not move within time window of 0.7s",
+      "identifier" : "movingTarget",
+      "timestamp" : "2019-01-04 17:14:55.311 -0700",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_ascript",
+      "success" : false,
+      "message" : "click on image0005 did not produce visual feedback",
+      "identifier" : "feedbackResponse",
+      "timestamp" : "2019-01-04 17:14:55.960 -0700",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 5
+    }
+  ],
+  "createdTimestamp" : "2019-01-04 17:14:53.161 -0700"
+}

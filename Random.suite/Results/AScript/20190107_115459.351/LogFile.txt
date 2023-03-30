@@ -1,0 +1,5 @@
+﻿2019-01-07 11:54:59.352 -0700	START		Running AScript.script
+2019-01-07 11:54:59.447 -0700	set		USABILITYMODE = True	1	on_ascript	AScript.script
+2019-01-07 11:55:02.600 -0700	set		USABILITYMODE = False	2	on_ascript	AScript.script
+2019-01-07 11:55:02.749 -0700	EndTestCase		(Duration:"3.393317", Errors:"0", Exceptions:"0", StartTime:"2019-01-07 11:54:59 -0700", Successes:"1", TestCase:"AScript.script", Warnings:"0")
+2019-01-07 11:55:02.768 -0700	SUCCESS		Execution Time 0:00:03 AScript.script

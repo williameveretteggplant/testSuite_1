@@ -1,0 +1,7 @@
+﻿2019-01-07 12:01:04.600 -0700	START		Running AScript.script in Usability Mode
+2019-01-07 12:01:04.819 -0700	set		USABILITYMODE = True	1	on_ascript	AScript.script
+2019-01-07 12:01:04.820 -0700	set		USABILITYMODE = False	2	on_ascript	AScript.script
+2019-01-07 12:01:11.540 -0700	Exception	image0004	No Image Found On Screen: "image0004"	4	on_ascript	AScript.script
+2019-01-07 12:01:11.769 -0700	EndTestCase		(Duration:"7.165885", Errors:"1", Exceptions:"1", StartTime:"2019-01-07 12:01:04 -0700", Successes:"0", TestCase:"AScript.script", Warnings:"0")
+2019-01-07 12:01:11.771 -0700	UsabilitySummary		Usability Tests: 0, Usability Warnings: 0
+2019-01-07 12:01:11.773 -0700	ABORTED		Execution Time 0:00:07 AScript.script

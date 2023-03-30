@@ -1,0 +1,58 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running AScript.script",
+      "timestamp" : "2019-01-07 12:04:04.687 -0700"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "USABILITYMODE = True",
+      "timestamp" : "2019-01-07 12:04:04.751 -0700",
+      "identifier" : "set",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "Target: image0004 did not move within time window of 0.7s",
+      "timestamp" : "2019-01-07 12:04:05.721 -0700",
+      "identifier" : "Usability",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "at (373, 608)",
+      "identifier" : "click",
+      "image" : "image0004",
+      "handlerLine" : 4,
+      "timestamp" : "2019-01-07 12:04:06.371 -0700",
+      "scriptName" : "AScript.script"
+    },
+    {
+      "handlerName" : "on_ascript",
+      "message" : "click on image0004 produced visual feedback",
+      "timestamp" : "2019-01-07 12:04:06.373 -0700",
+      "identifier" : "Usability",
+      "scriptName" : "AScript.script",
+      "handlerLine" : 4
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"1.982982\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-01-07 12:04:04 -0700\", Successes:\"1\", TestCase:\"AScript.script\", Warnings:\"0\")",
+      "timestamp" : "2019-01-07 12:04:06.672 -0700"
+    },
+    {
+      "identifier" : "UsabilitySummary",
+      "message" : "Usability Tests: 2, Usability Warnings: 0, movingTarget Tests: 1 Warnings: 0, feedbackResponse Tests: 1 Warnings: 0",
+      "timestamp" : "2019-01-07 12:04:06.674 -0700"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:01 AScript.script",
+      "timestamp" : "2019-01-07 12:04:06.693 -0700"
+    }
+  ],
+  "createdTimestamp" : "2019-01-07 12:04:04.689 -0700"
+}
