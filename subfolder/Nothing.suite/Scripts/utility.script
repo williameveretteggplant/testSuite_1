@@ -1,0 +1,26 @@
+﻿function readFileIntoList inputFileName
+	put file inputFileName into inputFile
+	set outputArray to []
+	repeat with each line in inputFile
+		insert it after outputArray
+	end repeat
+	return outputArray
+end readFileIntoList
+
+
+function convertBinaryString inputString
+
+	set reversedString to reverse(inputString)
+	
+	set digitCount to 0
+	set result to 0
+	repeat with each character c of reversedString
+		if c equals "1"
+			set result to result + the exp2 of digitCount
+		end if
+		
+		set digitCount to digitCount + 1
+	end repeat
+	
+	return result
+end convertBinaryString

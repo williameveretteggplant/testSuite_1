@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent4.script",
+      "timestamp" : "2021-12-15 12:06:29.220 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"10.860325\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-15 12:06:29 -0700\", Successes:\"0\", TestCase:\"advent4.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-15 12:06:40.082 -0700"
+    },
+    {
+      "message" : "BadValue: Bad value for Chunk expression.  Looking for a number, LAST, MIDDLE, or ANY, got '{@\"11\":\"80\", @\"12\":\"8\", @\"13\":\"12\", @\"14\":\"47\", @\"15\":\"54\", @\"21\":\"74\", @\"22\":\"71\", @\"23\":\"30\", @\"24\":\"5\", @\"25\":\"78\", @\"31\":\"86\", @\"32\":\"11\", @\"33\":\"58\", @\"34\":\"35\", @\"35\":\"7\", @\"41\":\"63\", @\"42\":\"44\", @\"43\":\"10\", @\"44\":\"51\", @\"45\":\"85\", @\"51\":\"69\", @\"52\":\"91\", @\"53\":\"56\", @\"54\":\"40\", @\"55\":\"89\"}'. -- Execution Time 0:00:10 advent4.script",
+      "timestamp" : "2021-12-15 12:06:40.158 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-15 12:06:29.221 -0700"
+}

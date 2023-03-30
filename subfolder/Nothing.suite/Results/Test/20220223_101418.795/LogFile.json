@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-02-23 10:14:18.799 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.10327\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-02-23 10:14:18 -0700\", Successes:\"0\", TestCase:\"Test.script\", Warnings:\"0\")",
+      "timestamp" : "2022-02-23 10:14:18.904 -0700"
+    },
+    {
+      "message" : "MovieError: StartMovie is not allowed when a movie is already being recorded -- Execution Time 0:00:00 Test.script",
+      "timestamp" : "2022-02-23 10:14:18.940 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2022-02-23 10:14:18.800 -0700"
+}

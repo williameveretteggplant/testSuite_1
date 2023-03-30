@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="advent4_script" package="Nothing.suite" timestamp="2021-12-15 14:58:20.643 -0700"
+ tests="1"  failures="1" errors="0" time="24.707484">
+  <properties>
+   <property name="RunDate" value="2021-12-15 14:58:20.643 -0700"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="advent4.script" assertions="1" status="failure"  time="24.700585">
+    <failure type="FAILURE" message="BadValue: Bad value for Chunk expression.  Looking for a number, LAST, MIDDLE, or ANY, got '{@&quot;11&quot;:&quot;88&quot;, @&quot;12&quot;:&quot;50&quot;, @&quot;13&quot;:&quot;27&quot;, @&quot;14&quot;:&quot;48&quot;, @&quot;15&quot;:&quot;23&quot;, @&quot;21&quot;:&quot;96&quot;, @&quot;22&quot;:&quot;90&quot;, @&quot;23&quot;:&quot;30&quot;, @&quot;24&quot;:&quot;58&quot;, @&quot;25&quot;:&quot;55&quot;, @&quot;31&quot;:&quot;29&quot;, @&quot;32&quot;:&quot;17&quot;, @&quot;33&quot;:&quot;3&quot;, @&quot;34&quot;:&quot;22&quot;, @&quot;35&quot;:&quot;49&quot;, @&quot;41&quot;:&quot;99&quot;, @&quot;42&quot;:&quot;32&quot;, @&quot;43&quot;:&quot;8&quot;, @&quot;44&quot;:&quot;37&quot;, @&quot;45&quot;:&quot;42&quot;, @&quot;51&quot;:&quot;13&quot;, @&quot;52&quot;:&quot;81&quot;, @&quot;53&quot;:&quot;87&quot;, @&quot;54&quot;:&quot;2&quot;, @&quot;55&quot;:&quot;53&quot;}'. -- Execution Time 0:00:24 advent4.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

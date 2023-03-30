@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running shellScript.script",
+      "timestamp" : "2022-06-06 15:28:03.913 -0600"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.090061\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-06-06 15:28:03 -0600\", Successes:\"1\", TestCase:\"shellScript.script\", Warnings:\"0\")",
+      "timestamp" : "2022-06-06 15:28:04.005 -0600"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:00 shellScript.script",
+      "timestamp" : "2022-06-06 15:28:04.027 -0600"
+    }
+  ],
+  "createdTimestamp" : "2022-06-06 15:28:03.915 -0600"
+}

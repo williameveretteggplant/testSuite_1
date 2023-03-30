@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent1.script",
+      "timestamp" : "2021-12-14 10:21:38.704 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.125877\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-14 10:21:38 -0700\", Successes:\"0\", TestCase:\"advent1.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-14 10:21:38.832 -0700"
+    },
+    {
+      "message" : "SenseTalk Runtime Exception: Invalid operands for addition: expected numbers, dates and\/or lists; got 'line' and '-' -- Execution Time 0:00:00 advent1.script",
+      "timestamp" : "2021-12-14 10:21:38.868 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-14 10:21:38.705 -0700"
+}

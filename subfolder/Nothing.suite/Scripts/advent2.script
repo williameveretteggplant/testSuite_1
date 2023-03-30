@@ -1,0 +1,49 @@
+﻿put utility.readFileIntoList("~/Documents/advent2021/advent2.txt") into commandArray
+
+set xPos to 0
+set yPos to 0
+
+repeat for each item in commandArray
+	if the number of words in it > 1
+		put word 1 of it into commandName
+		put word 2 of it into commandValue
+		
+		if commandName is "forward"
+			set xPos to xPos + commandValue
+		else if commandName is "down"
+			set yPos to yPos + commandValue
+		else if commandName is "up"
+			set yPos to yPos - commandValue
+		end if
+		//	put it & " position x: " & xPos & "  y:" & yPos
+	end if	
+end repeat
+
+put "Final x:" & xPos & "   y:" & yPos 
+put xPos*yPos
+
+
+set xPos to 0
+set yAim to 0
+set yPos to 0
+
+repeat for each item in commandArray
+	if the number of words in it > 1
+		put word 1 of it into commandName
+		put word 2 of it into commandValue
+		
+		if commandName is "forward"
+			set xPos to xPos + commandValue
+			set yPos to yPos + commandValue*yAim
+		else if commandName is "down"
+			set yAim to yAim + commandValue
+		else if commandName is "up"
+			set yAim to yAim - commandValue
+		end if
+		
+		
+	end if	
+end repeat
+
+put "Final x:" & xPos & "   y:" & yPos 
+put xPos*yPos

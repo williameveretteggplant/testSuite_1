@@ -1,0 +1,4 @@
+﻿wait 1
+Test
+
+put "hello world"

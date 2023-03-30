@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="shellScript_script" package="Nothing.suite" timestamp="2022-06-03 09:59:48.015 -0600"
+ tests="1"  failures="0" errors="0" time="0.075631">
+  <properties>
+   <property name="RunDate" value="2022-06-03 09:59:48.015 -0600"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="shellScript.script" assertions="1" status="success"  time="0.071319">
+  </testcase>
+ </testsuite>
+</testsuites>

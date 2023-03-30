@@ -1,0 +1,48 @@
+﻿put utility.readFileIntoList("~/Documents/advent2021/advent3.txt") into lineArray
+
+set totalLineCount to the number of items in lineArray
+
+set oneCountArray to []
+
+repeat with each item line of lineArray
+	
+	set bitCount to 0
+	
+	repeat with each character of line
+		
+		if it equals "0" or it equals "1"
+			set bitCount to bitCount + 1
+			if the number of items in oneCountArray < bitCount
+				insert 0 into oneCountArray
+			end if
+			
+			if it equals "1"
+				set currentCount to item BitCount of oneCountArray
+				set item bitCount of oneCountArray to currentCount + 1
+			end if
+		end if
+		
+		
+	end repeat
+end repeat
+
+set gammaRate to ""
+set epsilonRate to ""
+
+repeat with each item c of oneCountArray
+	if c < totalLineCount/2
+		set gammaRate to gammaRate & "0"
+		set epsilonRate to epsilonRate & "1"
+	else
+		set gammaRate to gammaRate & "1"
+		set epsilonRate to epsilonRate & "0"
+	end if
+end repeat
+
+put gammaRate
+set gammaRateNumber to utility.convertBinaryString(gammaRate)
+put epsilonRate
+set epsilonRateNumber to utility.convertBinaryString(epsilonRate)
+
+put gammaRateNumber*epsilonRateNumber
+

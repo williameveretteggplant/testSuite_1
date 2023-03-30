@@ -1,0 +1,46 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-03-02 09:11:07.204 -0700"
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "\/Users\/weverett\/Documents\/Nothing.suite\/Results\/Test\/20220302_091107.141\/movie1.mp4",
+      "timestamp" : "2022-03-02 09:11:07.618 -0700",
+      "identifier" : "startmovie",
+      "scriptName" : "Test.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "Unable to Find Image(s): CDC.png -- AutoUpdate engaged",
+      "timestamp" : "2022-03-02 09:11:09.601 -0700",
+      "identifier" : "LogWarning",
+      "scriptName" : "Test.script",
+      "handlerLine" : 6
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "No Image Found On Screen: \"CDC\"",
+      "identifier" : "Exception",
+      "image" : "CDC",
+      "handlerLine" : 6,
+      "timestamp" : "2022-03-02 09:11:11.625 -0700",
+      "scriptName" : "Test.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"4.426295\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-02 09:11:07 -0700\", Successes:\"0\", TestCase:\"Test.script\", Warnings:\"1\")",
+      "timestamp" : "2022-03-02 09:11:11.634 -0700"
+    },
+    {
+      "message" : "Image Not Found: moveto Error - No Image Found On Screen: \"CDC\" -- Execution Time 0:00:04 Test.script",
+      "timestamp" : "2022-03-02 09:11:11.658 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2022-03-02 09:11:07.207 -0700"
+}

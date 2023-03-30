@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Test2">
+ <run>
+  <RunDate>2022-02-23 11:15:13.906 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.641618</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_111513.906/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:15:26.157 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.335615</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_111526.157/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+</runHistory>

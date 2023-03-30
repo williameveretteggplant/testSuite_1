@@ -1,0 +1,3 @@
+﻿2021-12-15 11:59:14.169 -0700	START		Running advent4.script
+2021-12-15 11:59:20.377 -0700	EndTestCase		(Duration:"6.206759", Errors:"1", Exceptions:"0", StartTime:"2021-12-15 11:59:14 -0700", Successes:"0", TestCase:"advent4.script", Warnings:"0")
+2021-12-15 11:59:20.398 -0700	FAILURE	Screen_Error.png	Invalid Range: Only numeric, date/time, and character ranges are supported (got "finalScore" TO "0"). -- Execution Time 0:00:06 advent4.script

@@ -1,0 +1,4 @@
+﻿2022-03-02 16:59:48.801 -0700	START		Running Test.script
+2022-03-02 16:59:48.854 -0700	Exception		Remote Connection Unavailable	4	on_test	Test.script
+2022-03-02 16:59:49.023 -0700	EndTestCase		(Duration:"0.219989", Errors:"1", Exceptions:"1", StartTime:"2022-03-02 16:59:48 -0700", Successes:"0", TestCase:"Test.script", Warnings:"0")
+2022-03-02 16:59:49.040 -0700	FAILURE		No Remote Connection: startmovie Error - Remote Connection Unavailable -- Execution Time 0:00:00 Test.script

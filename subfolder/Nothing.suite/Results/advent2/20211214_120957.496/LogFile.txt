@@ -1,0 +1,3 @@
+﻿2021-12-14 12:09:57.498 -0700	START		Running advent2.script
+2021-12-14 12:10:02.392 -0700	EndTestCase		(Duration:"4.892062", Errors:"0", Exceptions:"0", StartTime:"2021-12-14 12:09:57 -0700", Successes:"1", TestCase:"advent2.script", Warnings:"0")
+2021-12-14 12:10:02.398 -0700	SUCCESS		Execution Time 0:00:04 advent2.script

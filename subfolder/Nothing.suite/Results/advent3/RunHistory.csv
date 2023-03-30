@@ -1,0 +1,11 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2021-12-14 14:37:17.564 -0700,"Failure",0:00:00,1,0,0,"20211214_143717.564/LogFile.txt","","SenseTalk Compiler Exception -- in advent3:\nSyntax Error at line 24: Syntax Error - can't understand ""repeat"" at character 6",0
+2021-12-14 14:37:42.811 -0700,"Aborted",0:00:24,1,0,0,"20211214_143742.811/LogFile.txt","","",0
+2021-12-14 14:38:25.198 -0700,"Aborted",0:01:25,1,0,0,"20211214_143825.198/LogFile.txt","","",0
+2021-12-14 14:40:03.509 -0700,"Success",0:00:29,0,0,0,"20211214_144003.509/LogFile.txt","","",1
+2021-12-14 14:40:52.176 -0700,"Success",0:00:02,0,0,0,"20211214_144052.176/LogFile.txt","","",1
+2021-12-14 14:56:53.438 -0700,"Success",0:00:02,0,0,0,"20211214_145653.438/LogFile.txt","","",1
+2021-12-14 15:13:08.588 -0700,"Success",0:00:02,0,0,0,"20211214_151308.588/LogFile.txt","","",1
+2021-12-14 15:13:35.573 -0700,"Success",0:00:02,0,0,0,"20211214_151335.573/LogFile.txt","","",1
+2021-12-14 15:16:12.127 -0700,"Success",0:00:02,0,0,0,"20211214_151612.127/LogFile.txt","","",1
+2021-12-14 15:16:26.735 -0700,"Success",0:00:02,0,0,0,"20211214_151626.735/LogFile.txt","","",1

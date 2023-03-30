@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent4.script",
+      "timestamp" : "2021-12-15 11:54:45.739 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"49.592699\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-15 11:54:45 -0700\", Successes:\"0\", TestCase:\"advent4.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-15 11:55:35.334 -0700"
+    },
+    {
+      "message" : "STInvalidNumber: Value is not a number: 'number' -- Execution Time 0:00:49 advent4.script",
+      "timestamp" : "2021-12-15 11:55:35.382 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-15 11:54:45.740 -0700"
+}

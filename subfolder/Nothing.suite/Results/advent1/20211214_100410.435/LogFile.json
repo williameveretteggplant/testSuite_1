@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent1.script",
+      "timestamp" : "2021-12-14 10:04:10.439 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.111229\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-14 10:04:10 -0700\", Successes:\"0\", TestCase:\"advent1.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-14 10:04:10.551 -0700"
+    },
+    {
+      "message" : "STFileException: Failed to read file \/Users\/weverett\/Documents\/advent2021\/advent1a.txt -- Execution Time 0:00:00 advent1.script",
+      "timestamp" : "2021-12-14 10:04:10.615 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-14 10:04:10.440 -0700"
+}

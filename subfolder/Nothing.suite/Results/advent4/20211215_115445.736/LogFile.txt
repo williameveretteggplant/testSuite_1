@@ -1,0 +1,3 @@
+﻿2021-12-15 11:54:45.739 -0700	START		Running advent4.script
+2021-12-15 11:55:35.334 -0700	EndTestCase		(Duration:"49.592699", Errors:"1", Exceptions:"0", StartTime:"2021-12-15 11:54:45 -0700", Successes:"0", TestCase:"advent4.script", Warnings:"0")
+2021-12-15 11:55:35.382 -0700	FAILURE	Screen_Error.png	STInvalidNumber: Value is not a number: 'number' -- Execution Time 0:00:49 advent4.script

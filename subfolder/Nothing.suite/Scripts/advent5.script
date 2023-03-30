@@ -1,0 +1,224 @@
+﻿put utility.readFileIntoList("~/Documents/advent2021/test5.txt") into lineArray
+set the listInsertionMode to "nested"
+
+set segmentArray to []
+
+repeat with each item seg of lineArray
+	set pointArray to []
+	set points to seg split by " -> "
+	repeat with each item pt of points
+		set nums to pt split by ","
+		set coord to {x:(item 1 of nums),y:(item 2 of nums)}
+		insert coord into pointArray
+	end repeat
+	insert pointArray into segmentArray
+end repeat
+
+
+set verticalArray to []
+set horizontalArray to []
+set diagonalArray to []
+
+repeat with each item seg of segmentArray
+	set firstPoint to item 1 of seg
+	set secondPoint to item 2 of seg
+	if firstPoint.x equals secondPoint.x
+		if firstPoint.y <= secondPoint.y
+			insert seg into verticalArray
+		else
+			insert [secondPoint,firstPoint] into verticalArray
+		end if
+	else if firstPoint.y equals secondPoint.y
+		if firstPoint.x <= secondPoint.x
+			insert seg into horizontalArray
+		else
+			insert [secondPoint,firstPoint] into horizontalArray
+		end if
+		
+	else
+		set xDist to firstPoint.x - secondPoint.x
+		set yDist to firstPoint.y - secondPoint.y
+		
+		if xDist equals yDist or xDist equals (yDist*-1)
+			
+			if firstPoint.x < secondPoint.x
+				insert seg into diagonalArray
+			else
+				insert [secondPoint,firstPoint] into diagonalArray
+			end if
+		end if
+		
+	end if
+end repeat
+
+set pointMap to {}
+
+
+repeat with each item dSeg of diagonalArray
+	set dPoint1 to item 1 of dSeg
+	set dPoint2 to item 2 of dSeg
+	if dPoint2.y > dPoint1.y
+		set slope to 1
+	else
+		set slope to -1
+	end if
+	
+	repeat with each item vSeg of verticalArray
+		set vertPoint1 to item 1 of vSeg
+		set vertPoint2 to item 2 of vSeg
+		set xPos to vertPoint1.x
+		if xPos < dPoint1.x or xPos > dPoint2.x
+			Next repeat
+		end if
+		set yPos to (xPos - dPoint1.x)*slope + dPoint1.y
+		if yPos < vertPoint1.y or yPos > vertPoint2.y
+			Next repeat
+		end if
+		set intersectionPoint to "" & xPos & "-" & yPos
+		set pointMap.(intersectionPoint) to 1
+	end repeat
+	
+	repeat with each item hSeg of horizontalArray
+		set horzPoint1 to item 1 of hSeg
+		set horzPoint2 to item 2 of hSeg
+		set yPos to horzPoint1.y
+		if (yPos < dPoint1.y and yPos < dPoint2.y) or (yPos > dPoint2.y and yPos > dPoint1.y)
+			Next repeat
+		end if
+		
+		set xPos to (yPos - dPoint1.y )*slope + dPoint1.x
+		
+		if xPos < horzPoint1.x or xPos > horzPoint2.x
+			Next repeat
+		end if
+		set intersectionPoint to "" & xPos & "-" & yPos
+		set pointMap.(intersectionPoint) to 1
+	end repeat
+end repeat
+
+repeat with each item vSeg of verticalArray
+	set vertPoint1 to item 1 of vSeg
+	set vertPoint2 to item 2 of vSeg
+	repeat with each item hSeg of horizontalArray
+		set horzPoint1 to item 1 of hSeg
+		set horzPoint2 to item 2 of hSeg
+		if horzPoint1.y < vertPoint1.y or horzPoint1.y > vertPoint2.y or vertPoint1.x < horzPoint1.x or vertPoint1.x > horzPoint2.x
+			Next repeat
+		end if
+		set intersectionPoint to "" & vertPoint1.x & "-" & horzPoint1.y
+		set pointMap.(intersectionPoint) to 1
+	end repeat
+end repeat
+
+
+repeat with each item vSeg of verticalArray
+	set vertPoint1 to item 1 of vSeg
+	set vertPoint2 to item 2 of vSeg
+	
+	set otherIndex to the counter
+	repeat while otherIndex  < the number of items in verticalArray
+		set otherIndex to otherIndex + 1
+		set otherSeg to item otherIndex of verticalArray
+		if not ((item 1 of otherSeg).x equals vertPoint1.x)
+			Next repeat
+		end if
+		set otherPoint1 to item 1 of otherSeg
+		set otherPoint2 to item 2 of otherSeg
+		if otherPoint1.y > vertPoint2.y or otherPoint2.y < vertPoint1.y
+			Next repeat
+		end if
+		set startNum to otherPoint1.y
+		set endNum to vertPoint2.y
+		if startNum < vertPoint1.y
+			set startNum to vertPoint1.y
+		end if
+		if endNum > otherPoint2.y
+			set endNum to otherPoint2.y
+		end if
+		set yPos to startNum
+		repeat while yPos <= endNum
+			set intersectionPoint to "" & otherPoint1.x & "-" & yPos
+			set pointMap.(intersectionPoint) to 1
+			set yPos to yPos + 1
+		end repeat
+		
+	end repeat
+end repeat
+
+repeat with each item hSeg of horizontalArray
+	set horzPoint1 to item 1 of hSeg
+	set horzPoint2 to item 2 of hSeg
+	
+	set otherIndex to the counter
+	repeat while otherIndex < the number of items in horizontalArray
+		set otherIndex to otherIndex + 1
+		set otherSeg to item otherIndex of horizontalArray
+		if not ((item 1 of otherSeg).y equals horzPoint1.y)
+			Next repeat
+		end if
+		set otherPoint1 to item 1 of otherSeg
+		set otherPoint2 to item 2 of otherSeg
+		if otherPoint1.x > horzPoint2.x or otherPoint2.x < horzPoint1.x
+			Next repeat
+		end if
+		set startNum to otherPoint1.x
+		set endNum to horzPoint2.x
+		if startNum < horzPoint1.x
+			set startNum to horzPoint1.x
+		end if
+		if endNum > otherPoint2.x
+			set endNum to otherPoint2.x			
+		end if
+		set xPos to startNum
+		repeat while xPos <= endNum
+			set intersectionPoint to "" & xPos & "-" & otherPoint1.y
+			set pointMap.(intersectionPoint) to 1
+			set xPos to xPos + 1
+		end repeat
+		
+	end repeat
+end repeat
+
+repeat with each item dSeg of diagonalArray
+	set dPoint1 to item 1 of dSeg
+	set dPoint2 to item 2 of dSeg
+	if dPoint2.y > dPoint1.y
+		set slope to 1
+	else 
+		set slope to -1
+	end if
+	set yIntercept to dPoint1.y - slope*dPoint1.x
+	
+	set otherIndex to the counter
+	repeat while otherIndex < the number of items in diagonalArray
+		set otherIndex to otherIndex + 1
+		set otherSeg to item otherIndex of diagonalArray
+		set otherPoint1 to item 1 of otherSeg
+		set otherPoint2 to item 2 of otherSeg
+		if otherPoint2.y > otherPoint1.y
+			set otherSlope to 1
+		else
+			set otherSlope to -1
+		end if
+		set otherYIntercept to otherPoint1.y - otherSlope*otherPoint1.x
+		if otherSlope equals slope
+			if not(yIntercept equals otherYIntercept)
+				Next repeat
+			end if
+			
+		else
+			
+		end if
+		
+	end repeat
+	
+	
+end repeat
+
+put "totalCount " & number of keys in pointMap
+
+
+function intersectionOfSegments seg1, seg2
+	
+end intersectionOfSegments
+

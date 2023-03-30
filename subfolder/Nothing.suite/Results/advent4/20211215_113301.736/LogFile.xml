@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="advent4_script" package="Nothing.suite" timestamp="2021-12-15 11:33:01.736 -0700"
+ tests="1"  failures="0" errors="0" time="6.279073">
+  <properties>
+   <property name="RunDate" value="2021-12-15 11:33:01.736 -0700"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="advent4.script" assertions="1" status="success"  time="6.274788">
+  </testcase>
+ </testsuite>
+</testsuites>

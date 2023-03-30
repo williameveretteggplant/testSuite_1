@@ -1,0 +1,3 @@
+﻿2021-12-16 17:40:15.590 -0700	START		Running advent5.script
+2021-12-16 17:40:17.058 -0700	EndTestCase		(Duration:"1.466123", Errors:"1", Exceptions:"0", StartTime:"2021-12-16 17:40:15 -0700", Successes:"0", TestCase:"advent5.script", Warnings:"0")
+2021-12-16 17:40:17.102 -0700	FAILURE	Screen_Error.png	SenseTalk Runtime Exception: Invalid operands for addition: expected numbers, dates and/or lists; got '-' and '240' -- Execution Time 0:00:01 advent5.script

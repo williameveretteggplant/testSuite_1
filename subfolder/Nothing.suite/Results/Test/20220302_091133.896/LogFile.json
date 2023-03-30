@@ -1,0 +1,38 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-03-02 09:11:33.899 -0700"
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "\/Users\/weverett\/Documents\/Nothing.suite\/Results\/Test\/20220302_091133.896\/movie1.mp4",
+      "timestamp" : "2022-03-02 09:11:33.988 -0700",
+      "identifier" : "startmovie",
+      "scriptName" : "Test.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "No Image Found On Screen: \"CDC\"",
+      "identifier" : "Exception",
+      "image" : "CDC",
+      "handlerLine" : 6,
+      "timestamp" : "2022-03-02 09:11:35.950 -0700",
+      "scriptName" : "Test.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"2.059977\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-02 09:11:33 -0700\", Successes:\"0\", TestCase:\"Test.script\", Warnings:\"0\")",
+      "timestamp" : "2022-03-02 09:11:35.961 -0700"
+    },
+    {
+      "message" : "Image Not Found: moveto Error - No Image Found On Screen: \"CDC\" -- Execution Time 0:00:02 Test.script",
+      "timestamp" : "2022-03-02 09:11:35.990 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2022-03-02 09:11:33.900 -0700"
+}

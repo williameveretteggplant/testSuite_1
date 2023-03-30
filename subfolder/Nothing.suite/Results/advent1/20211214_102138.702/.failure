@@ -1,0 +1,1 @@
+2021-12-14 10:21:38.702 -0700,Failure,0:00:00,1,0,0,20211214_102138.702/LogFile.txt,"","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'line' and '-'",0

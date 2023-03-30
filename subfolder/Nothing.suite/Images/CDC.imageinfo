@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2022-02-23 17:12:03 +0000";
+    CaptureHost = "20211013_100128.jpg – /Users/weverett/Downloads";
+    CaptureScreenSize = (
+        3264,
+        2448);
+    HasAlpha = 1;
+    HotSpotX = 159;
+    HotSpotY = 98;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 2742;
+    OriginalLocationY = 177;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "CDC";
+    tags = ();
+}

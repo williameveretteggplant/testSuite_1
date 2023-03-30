@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Test">
+ <run>
+  <RunDate>2022-02-22 16:46:07.426 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.481915</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220222_164607.426/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-22 16:46:15.566 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.432026</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220222_164615.566/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-22 16:47:02.371 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.651438</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220222_164702.371/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-22 16:48:44.921 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.657015</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220222_164844.921/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-22 16:49:11.249 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.614533</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220222_164911.249/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-22 16:49:23.170 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.651434</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220222_164923.170/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:13:14.646 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.460463</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_101314.646/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:13:36.798 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>0.773769</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_101336.798/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:13:55.860 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>0.905179</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_101355.860/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:13:59.715 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>4.195104</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_101359.715/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:14:07.085 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.122529</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_101407.085/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:14:18.795 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.108481</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_101418.795/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>MovieError -- StartMovie is not allowed when a movie is already being recorded</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:21:58.457 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.044509</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_102158.457/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:23:12.645 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.210003</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_102312.645/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 10:26:08.211 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>1.432179</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_102608.211/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:01:59.738 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.682600</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110159.738/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:02:15.449 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.305842</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110215.449/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:02:30.259 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.360329</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110230.259/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:02:45.195 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.239543</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220223_110245.195/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:04:17.636 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>1.244509</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110417.636/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:04:20.787 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.212595</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220223_110420.787/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:04:24.601 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>1.146767</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110424.601/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:04:29.756 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.209489</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220223_110429.756/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:04:40.771 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.216332</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220223_110440.771/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:04:44.379 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>0.514872</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110444.379/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:06:15.966 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.142428</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220223_110615.966/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-02-23 11:06:19.846 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.086395</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220223_110619.846/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>MovieError -- StartMovie is not allowed when a movie is already being recorded</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:11:07.141 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.492468</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_091107.141/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:11:33.896 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.064298</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_091133.896/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:11:52.946 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>1.248484</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_091152.946/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:11:59.841 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.229841</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_091159.841/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:12:04.158 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.234115</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_091204.158/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:12:15.899 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.131416</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_091215.899/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:12:20.144 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.078935</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_091220.144/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>MovieError -- StartMovie is not allowed when a movie is already being recorded</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:12:27.042 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.228568</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_091227.042/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:54:53.018 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.139614</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_095453.018/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:54:58.943 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.045396</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_095458.943/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>MovieError -- StartMovie is not allowed when a movie is already being recorded</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:55:33.881 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.118016</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_095533.881/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:55:41.817 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.085414</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_095541.817/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- moveto Error - No Image Found On Screen: &quot;CDC&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:56:14.005 -0700</RunDate>
+  <Status>Aborted</Status>
+  <Duration>1.557698</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_095614.005/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 09:56:20.858 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>2.232015</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_095620.858/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 16:59:48.799 -0700</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.223440</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_165948.799/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>No Remote Connection -- startmovie Error - Remote Connection Unavailable</ErrorMessage>
+ </run>
+</runHistory>

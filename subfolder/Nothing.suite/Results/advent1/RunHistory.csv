@@ -1,0 +1,26 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2021-12-14 10:03:03.342 -0700,"Failure",0:00:00,1,0,0,"20211214_100303.342/LogFile.txt","","STFileException -- Failed to read file /Users/weverett/Documents/advent2021/advent1a.txt",0
+2021-12-14 10:04:10.435 -0700,"Failure",0:00:00,1,0,0,"20211214_100410.435/LogFile.txt","","STFileException -- Failed to read file /Users/weverett/Documents/advent2021/advent1a.txt",0
+2021-12-14 10:07:44.689 -0700,"Failure",0:00:00,1,0,0,"20211214_100744.689/LogFile.txt","","STFileException -- Failed to read file /Users/weverett/Documents/advent2021/advent1a.txt",0
+2021-12-14 10:11:04.301 -0700,"Success",0:00:00,0,0,0,"20211214_101104.301/LogFile.txt","","",1
+2021-12-14 10:12:08.935 -0700,"Failure",0:00:00,1,0,0,"20211214_101208.935/LogFile.txt","","SenseTalk Compiler Exception -- in advent1:\nSyntax Error at line 1: Syntax Error - can't understand ""inputFile"" at character 51",0
+2021-12-14 10:14:28.237 -0700,"Success",0:00:00,0,0,0,"20211214_101428.237/LogFile.txt","","",1
+2021-12-14 10:19:34.178 -0700,"Failure",0:00:00,1,0,0,"20211214_101934.178/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'lines'",0
+2021-12-14 10:21:02.334 -0700,"Failure",0:00:00,1,0,0,"20211214_102102.334/LogFile.txt","","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'line' and '-'",0
+2021-12-14 10:21:38.702 -0700,"Failure",0:00:00,1,0,0,"20211214_102138.702/LogFile.txt","","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'line' and '-'",0
+2021-12-14 10:37:51.785 -0700,"Success",0:00:00,0,0,0,"20211214_103751.785/LogFile.txt","","",1
+2021-12-14 10:38:03.896 -0700,"Success",0:00:00,0,0,0,"20211214_103803.896/LogFile.txt","","",1
+2021-12-14 10:40:08.558 -0700,"Success",0:00:00,0,0,0,"20211214_104008.558/LogFile.txt","","",1
+2021-12-14 10:40:46.428 -0700,"Success",0:00:00,0,0,0,"20211214_104046.428/LogFile.txt","","",1
+2021-12-14 10:41:14.148 -0700,"Success",0:00:00,0,0,0,"20211214_104114.148/LogFile.txt","","",1
+2021-12-14 10:43:56.088 -0700,"Success",0:00:00,0,0,0,"20211214_104356.088/LogFile.txt","","",1
+2021-12-14 10:48:45.443 -0700,"Success",0:00:00,0,0,0,"20211214_104845.443/LogFile.txt","","",1
+2021-12-14 11:18:30.905 -0700,"Success",0:00:00,0,0,0,"20211214_111830.905/LogFile.txt","","",1
+2021-12-14 11:19:06.219 -0700,"Success",0:00:00,0,0,0,"20211214_111906.219/LogFile.txt","","",1
+2021-12-14 11:19:20.067 -0700,"Success",0:00:00,0,0,0,"20211214_111920.067/LogFile.txt","","",1
+2021-12-14 11:20:04.819 -0700,"Success",0:00:00,0,0,0,"20211214_112004.819/LogFile.txt","","",1
+2021-12-14 11:20:47.774 -0700,"Success",0:00:00,0,0,0,"20211214_112047.774/LogFile.txt","","",1
+2021-12-14 11:42:01.385 -0700,"Success",0:00:00,0,0,0,"20211214_114201.385/LogFile.txt","","",1
+2021-12-14 11:44:27.941 -0700,"Success",0:00:00,0,0,0,"20211214_114427.941/LogFile.txt","","",1
+2022-02-22 16:44:23.284 -0700,"Success",0:00:00,0,0,0,"20220222_164423.284/LogFile.txt","","",1
+2022-05-04 16:24:14.941 -0600,"Success",0:00:00,0,0,0,"20220504_162414.941/LogFile.txt","","",1

@@ -1,0 +1,11 @@
+﻿//advent1
+//advent2
+
+StartMovie "movie1"
+
+//MoveTo "CDC"
+
+wait 2
+
+StopMovie
+

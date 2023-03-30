@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent3.script",
+      "timestamp" : "2021-12-14 14:38:25.201 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"85.115119\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-14 14:38:25 -0700\", Successes:\"0\", TestCase:\"advent3.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-14 14:39:50.317 -0700"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:01:25 advent3.script",
+      "timestamp" : "2021-12-14 14:39:50.319 -0700"
+    }
+  ],
+  "createdTimestamp" : "2021-12-14 14:38:25.202 -0700"
+}

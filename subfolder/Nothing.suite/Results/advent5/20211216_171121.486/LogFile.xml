@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="advent5_script" package="Nothing.suite" timestamp="2021-12-16 17:11:21.486 -0700"
+ tests="1"  failures="1" errors="0" time="0.528585">
+  <properties>
+   <property name="RunDate" value="2021-12-16 17:11:21.486 -0700"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="advent5.script" assertions="1" status="failure"  time="0.465557">
+    <failure type="FAILURE" message="STFileException: Failed to read file /Users/weverett/Documents/advent2021/advent5.txt -- Execution Time 0:00:00 advent5.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

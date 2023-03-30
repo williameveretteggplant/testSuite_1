@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="advent4_script" package="Nothing.suite" timestamp="2021-12-15 11:30:33.491 -0700"
+ tests="1"  failures="1" errors="0" time="2.095247">
+  <properties>
+   <property name="RunDate" value="2021-12-15 11:30:33.491 -0700"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="advent4.script" assertions="1" status="failure"  time="2.027924">
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Function: 'numberlookup' -- Execution Time 0:00:02 advent4.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

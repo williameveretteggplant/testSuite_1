@@ -1,0 +1,128 @@
+﻿put utility.readFileIntoList("~/Documents/advent2021/advent4.txt") into lineArray
+
+set numberListString to item 1 of lineArray
+set numberList to numberListString split by ","
+
+delete item 1 of lineArray
+
+set boardArray to []
+
+set numberLookup to {}
+set mainSelectedNumbers to {}
+
+set currentBoard to {}
+set boardRow to 1
+set currentBoardNumber to 1
+repeat for each item ln of lineArray
+	if the number of characters in ln equals 0
+		set boardRow to 1
+		Next repeat
+	end if
+	
+	repeat for each word bingoNumber of ln
+		set columnNumber to the counter
+		set boardKey to "" & boardRow & "" & columnNumber
+		put bingoNumber into currentBoard.(boardKey)
+		
+		put {board:currentBoardNumber, row:boardRow, column: columnNumber} into lookupEntry
+		set lookupKey to "" & bingoNumber
+		if (lookupKey) is among the keys of numberLookup 
+			insert lookupEntry into numberLookup.(lookupKey)
+			else
+			set numberLookup.(lookupKey) to lookupEntry
+	end if
+	
+end repeat
+
+set boardRow to boardRow + 1
+if boardRow > 5
+	set boardRow to 1
+	insert currentBoard into boardArray
+	set currentBoard to {}
+	set currentBoardNumber to currentBoardNumber + 1
+end if
+
+end repeat
+
+set completedBoardNumber to 0
+set completedNumberCalled to -1
+set completedBoardLookup to {}
+
+repeat for each item num of numberList
+	set mainSelectedNumbers.(num) to 1
+	if not ((num) is among the keys of numberLookup)
+		Next repeat
+	end if
+	set entries to numberLookup.(num)
+	repeat for each item lookupEntry of entries
+		set currentBoard to item lookupEntry.board of boardArray
+		if (lookupEntry.board) is among the keys of completedBoardLookup
+			Next repeat
+		end if
+		if isBoardComplete(currentBoard, lookupEntry.row, lookupEntry.column, mainSelectedNumbers)
+			put "Board #" & lookupEntry.board & " is completed with " & num
+			set completedBoardNumber to lookupEntry.board
+			set completedNumberCalled to num
+			set completedBoardLookup.(lookupEntry.board) to true
+		end if
+	end repeat
+	
+	if number of keys in completedBoardLookup equals number of items in boardArray
+		Exit repeat
+	end if
+	
+end repeat
+
+set finalScore to calculateBoardScore((item completedBoardNumber of boardArray), completedNumberCalled, mainSelectedNumbers)
+
+put finalScore
+
+
+function isBoardComplete board, row, column, selectedNumbers
+	set isComplete to true
+	
+	//check vertical
+	repeat 5 times
+		set currentRow to the counter
+		set boardKey to "" & currentRow & "" & column
+		set currentValue to board.(boardKey)
+		if not ((currentValue) is among the keys of selectedNumbers)
+			set isComplete to false
+			Exit repeat
+		end if
+	end repeat
+	if isComplete
+		return isComplete
+	end if
+	
+	set isComplete to true
+	//check horizontal
+	repeat 5 times
+		set currentColumn to the counter
+		set boardKey to "" & row & "" & currentColumn
+		set currentValue to board.(boardKey)
+		if not ((currentValue) is among the keys of selectedNumbers)
+			set isComplete to false
+			Exit repeat
+		end if
+	end repeat
+	if isComplete
+		return isComplete
+	end if
+	
+	return isComplete
+end isBoardComplete
+
+function calculateBoardScore board, winningNumber, selectedNumbers
+	set sumValue to 0
+	repeat with each of the keys of board
+		set boardPlace to board.(it)
+		if (boardPlace) is among the keys of selectedNumbers
+			Next repeat
+		end if
+		set sumValue to sumValue + boardPlace
+	end repeat
+	return sumValue*winningNumber
+end calculateBoardScore
+
+

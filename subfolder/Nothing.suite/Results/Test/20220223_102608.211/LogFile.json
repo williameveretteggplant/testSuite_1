@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-02-23 10:26:08.216 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"1.426797\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-02-23 10:26:08 -0700\", Successes:\"0\", TestCase:\"Test.script\", Warnings:\"0\")",
+      "timestamp" : "2022-02-23 10:26:09.644 -0700"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:01 Test.script",
+      "timestamp" : "2022-02-23 10:26:09.748 -0700"
+    }
+  ],
+  "createdTimestamp" : "2022-02-23 10:26:08.217 -0700"
+}

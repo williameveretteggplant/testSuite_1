@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent4.script",
+      "timestamp" : "2021-12-15 09:49:19.119 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.205584\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-15 09:49:19 -0700\", Successes:\"0\", TestCase:\"advent4.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-15 09:49:19.326 -0700"
+    },
+    {
+      "message" : "STInvalidParameters: Command remove was called with invalid parameters -- Execution Time 0:00:00 advent4.script",
+      "timestamp" : "2021-12-15 09:49:19.370 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-15 09:49:19.120 -0700"
+}

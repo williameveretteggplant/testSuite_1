@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Test_script" package="Nothing.suite" timestamp="2022-02-23 11:04:24.601 -0700"
+ tests="1"  failures="0" errors="0" time="1.146767">
+  <properties>
+   <property name="RunDate" value="2022-02-23 11:04:24.601 -0700"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Test.script" assertions="1" status="failure"  time="1.141883">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+﻿2022-02-23 10:21:58.460 -0700	START		Running Test.script
+2022-02-23 10:22:00.434 -0700	LogWarning		Unable to Find Image(s): CDC.png -- AutoUpdate engaged	6	on_test	Test.script
+2022-02-23 10:22:02.493 -0700	Exception	CDC	No Image Found On Screen: "CDC"	6	on_test	Test.script
+2022-02-23 10:22:02.502 -0700	EndTestCase		(Duration:"4.039941", Errors:"1", Exceptions:"1", StartTime:"2022-02-23 10:21:58 -0700", Successes:"0", TestCase:"Test.script", Warnings:"1")
+2022-02-23 10:22:32.191 -0700	FAILURE	Screen_Error.png	Image Not Found: moveto Error - No Image Found On Screen: "CDC" -- Execution Time 0:00:04 Test.script

@@ -1,0 +1,38 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-02-23 10:23:12.650 -0700"
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "Unable to Find Image(s): CDC.png -- AutoUpdate engaged",
+      "timestamp" : "2022-02-23 10:23:14.680 -0700",
+      "identifier" : "LogWarning",
+      "scriptName" : "Test.script",
+      "handlerLine" : 6
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "No Image Found On Screen: \"CDC\"",
+      "identifier" : "Exception",
+      "image" : "CDC",
+      "handlerLine" : 6,
+      "timestamp" : "2022-02-23 10:23:16.845 -0700",
+      "scriptName" : "Test.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"4.203264\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-02-23 10:23:12 -0700\", Successes:\"0\", TestCase:\"Test.script\", Warnings:\"1\")",
+      "timestamp" : "2022-02-23 10:23:16.855 -0700"
+    },
+    {
+      "message" : "Image Not Found: moveto Error - No Image Found On Screen: \"CDC\" -- Execution Time 0:00:04 Test.script",
+      "timestamp" : "2022-02-23 10:23:16.877 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2022-02-23 10:23:12.651 -0700"
+}

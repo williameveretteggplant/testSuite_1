@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="advent5_script" package="Nothing.suite" timestamp="2021-12-16 17:40:15.586 -0700"
+ tests="1"  failures="1" errors="0" time="1.470926">
+  <properties>
+   <property name="RunDate" value="2021-12-16 17:40:15.586 -0700"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="advent5.script" assertions="1" status="failure"  time="1.466123">
+    <failure type="FAILURE" message="SenseTalk Runtime Exception: Invalid operands for addition: expected numbers, dates and/or lists; got '-' and '240' -- Execution Time 0:00:01 advent5.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

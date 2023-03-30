@@ -1,0 +1,4 @@
+﻿2022-03-02 09:12:04.161 -0700	START		Running Test.script
+2022-03-02 09:12:04.275 -0700	startmovie		/Users/weverett/Documents/Nothing.suite/Results/Test/20220302_091204.158/movie1.mp4	4	on_test	Test.script
+2022-03-02 09:12:06.393 -0700	EndTestCase		(Duration:"2.230402", Errors:"0", Exceptions:"0", StartTime:"2022-03-02 09:12:04 -0700", Successes:"1", TestCase:"Test.script", Warnings:"0")
+2022-03-02 09:12:06.411 -0700	SUCCESS		Execution Time 0:00:02 Test.script

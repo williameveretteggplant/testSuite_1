@@ -1,0 +1,3 @@
+﻿2021-12-15 11:30:33.556 -0700	START		Running advent4.script
+2021-12-15 11:30:35.587 -0700	EndTestCase		(Duration:"2.027924", Errors:"1", Exceptions:"0", StartTime:"2021-12-15 11:30:33 -0700", Successes:"0", TestCase:"advent4.script", Warnings:"0")
+2021-12-15 11:30:35.644 -0700	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Function: 'numberlookup' -- Execution Time 0:00:02 advent4.script

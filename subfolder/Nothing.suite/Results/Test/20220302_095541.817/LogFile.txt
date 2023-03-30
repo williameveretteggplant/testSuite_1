@@ -1,0 +1,5 @@
+﻿2022-03-02 09:55:41.820 -0700	START		Running Test.script
+2022-03-02 09:55:41.938 -0700	startmovie		/Users/weverett/Documents/Nothing.suite/Results/Test/20220302_095541.817/movie1.mp4	4	on_test	Test.script
+2022-03-02 09:55:43.892 -0700	Exception	CDC	No Image Found On Screen: "CDC"	6	on_test	Test.script
+2022-03-02 09:55:43.903 -0700	EndTestCase		(Duration:"2.081445", Errors:"1", Exceptions:"1", StartTime:"2022-03-02 09:55:41 -0700", Successes:"0", TestCase:"Test.script", Warnings:"0")
+2022-03-02 09:55:43.933 -0700	FAILURE	Screen_Error.png	Image Not Found: moveto Error - No Image Found On Screen: "CDC" -- Execution Time 0:00:02 Test.script

@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent4.script",
+      "timestamp" : "2021-12-15 11:59:14.169 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"6.206759\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-15 11:59:14 -0700\", Successes:\"0\", TestCase:\"advent4.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-15 11:59:20.377 -0700"
+    },
+    {
+      "message" : "Invalid Range: Only numeric, date\/time, and character ranges are supported (got \"finalScore\" TO \"0\"). -- Execution Time 0:00:06 advent4.script",
+      "timestamp" : "2021-12-15 11:59:20.398 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-15 11:59:14.170 -0700"
+}

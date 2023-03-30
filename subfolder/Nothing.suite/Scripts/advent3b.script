@@ -1,0 +1,60 @@
+﻿put utility.readFileIntoList("~/Documents/advent2021/advent3.txt") into lineArray
+
+set firstCode to item 1 of lineArray
+set codeLength to the number of characters in firstCode
+
+set testArray to lineArray
+set testIndex to 1
+
+repeat while testIndex <= codeLength and the number of items in testArray > 1
+	set testArray to reduceArray(testArray,testIndex, true)
+	set testIndex to testIndex + 1
+end repeat
+
+put "count : " & the number of items in testArray
+put testArray
+set oxygenRating to utility.convertBinaryString(item 1 of testArray)
+put oxygenRating
+
+set testArray to lineArray
+set testIndex to 1
+
+repeat while testIndex <= codeLength and the number of items in testArray > 1
+	set testArray to reduceArray(testArray,testIndex, false)
+	set testIndex to testIndex + 1
+end repeat
+
+put "count : " & the number of items in testArray
+put testArray
+set co2Rating to utility.convertBinaryString(item 1 of testArray)
+put co2Rating
+
+put oxygenRating*co2Rating
+
+function reduceArray arrayIn, position, mostNotLeast
+
+	set onesArray to []
+	set zeroesArray to []
+
+	Repeat with each item line of arrayIn
+		if character position of line equals "1"
+			insert line into onesArray
+		else
+			insert line into zeroesArray
+		end if
+	End repeat
+	
+	set onesMostCommon to false
+	if the number of items in onesArray >= the number of items in zeroesArray
+		set onesMostCommon to true
+	end if
+	
+	if (mostNotLeast and onesMostCommon) or (not mostNotLeast and not onesMostCommon)
+		return onesArray
+	else
+		return zeroesArray
+	end if
+	
+end reduceArray
+
+

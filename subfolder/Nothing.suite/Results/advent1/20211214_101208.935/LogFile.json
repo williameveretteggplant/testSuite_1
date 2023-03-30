@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent1.script",
+      "timestamp" : "2021-12-14 10:12:08.937 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.000844\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-14 10:12:08 -0700\", Successes:\"0\", TestCase:\"advent1.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-14 10:12:08.940 -0700"
+    },
+    {
+      "message" : "SenseTalk Compiler Exception: in advent1:\\nSyntax Error at line 1: Syntax Error - can't understand \"inputFile\" at character 51 -- Execution Time 0:00:00 advent1.script",
+      "timestamp" : "2021-12-14 10:12:08.999 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-14 10:12:08.938 -0700"
+}

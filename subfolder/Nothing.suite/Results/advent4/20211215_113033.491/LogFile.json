@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent4.script",
+      "timestamp" : "2021-12-15 11:30:33.556 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"2.027924\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-15 11:30:33 -0700\", Successes:\"0\", TestCase:\"advent4.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-15 11:30:35.587 -0700"
+    },
+    {
+      "message" : "STUnknownMessage: ERROR: No Such Function: 'numberlookup' -- Execution Time 0:00:02 advent4.script",
+      "timestamp" : "2021-12-15 11:30:35.644 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-15 11:30:33.558 -0700"
+}

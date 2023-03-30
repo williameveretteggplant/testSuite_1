@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1645636355.782831,
+  "ocrcapturestring" : "■",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "\/Users\/weverett\/Downloads\/20211013_100128.jpg",
+      "sutinfo" : {
+        "Type" : "Testplant Screen Image"
+      },
+      "connectionname" : "20211013_100128.jpg",
+      "connectiontype" : "Screenshot",
+      "capturedocrtext" : "■",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[159,98]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "CDC.png",
+      "capturerect" : [
+        2742,
+        177,
+        319,
+        196
+      ]
+    }
+  ],
+  "createddate" : 1645636355.78283,
+  "lastfoundlocation" : [
+    2742,
+    177,
+    319,
+    196
+  ],
+  "originalcapturelocation" : [
+    2742,
+    177,
+    319,
+    196
+  ],
+  "lastfounddate" : 1645636356.630688,
+  "name" : "CDC"
+}

@@ -1,0 +1,3 @@
+﻿2022-03-02 09:12:20.147 -0700	START		Running Test.script
+2022-03-02 09:12:20.223 -0700	EndTestCase		(Duration:"0.074885", Errors:"1", Exceptions:"0", StartTime:"2022-03-02 09:12:20 -0700", Successes:"0", TestCase:"Test.script", Warnings:"0")
+2022-03-02 09:12:20.276 -0700	FAILURE	Screen_Error.png	MovieError: StartMovie is not allowed when a movie is already being recorded -- Execution Time 0:00:00 Test.script

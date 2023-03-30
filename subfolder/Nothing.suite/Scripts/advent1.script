@@ -1,0 +1,34 @@
+﻿
+
+put utility.readFileIntoList("~/Documents/advent2021/advent1a.txt") into numArray
+
+put 0 into increaseCount
+put 0 into lastMeasurement
+
+Repeat with each item num of numArray
+	if the counter > 1
+		if num > lastMeasurement
+			set increaseCount to increaseCount + 1
+		end if
+	end if
+	
+	set lastMeasurement to num
+End repeat
+
+put "Total increases - " & increaseCount
+
+
+put 0 into increaseCount
+
+Repeat with each item num of numArray
+	if the counter > 3
+		set comparisonIndex to the counter - 3
+		set lastNum to item comparisonIndex of numArray
+		if num > lastNum
+			set increaseCount to increaseCount + 1
+			put "" & num & " is larger than " & lastNum
+		end if
+	end if	
+End repeat
+
+put "Total window increases - " & increaseCount

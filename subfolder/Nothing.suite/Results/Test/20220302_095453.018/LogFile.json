@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-03-02 09:54:53.022 -0700"
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "\/Users\/weverett\/Documents\/Nothing.suite\/Results\/Test\/20220302_095453.018\/movie1.mp4",
+      "timestamp" : "2022-03-02 09:54:53.144 -0700",
+      "identifier" : "startmovie",
+      "scriptName" : "Test.script",
+      "handlerLine" : 4
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"2.135377\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-03-02 09:54:53 -0700\", Successes:\"1\", TestCase:\"Test.script\", Warnings:\"0\")",
+      "timestamp" : "2022-03-02 09:54:55.158 -0700"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:02 Test.script",
+      "timestamp" : "2022-03-02 09:54:55.195 -0700"
+    }
+  ],
+  "createdTimestamp" : "2022-03-02 09:54:53.022 -0700"
+}

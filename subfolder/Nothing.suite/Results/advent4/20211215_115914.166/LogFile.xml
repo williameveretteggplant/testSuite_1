@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="advent4_script" package="Nothing.suite" timestamp="2021-12-15 11:59:14.166 -0700"
+ tests="1"  failures="1" errors="0" time="6.211200">
+  <properties>
+   <property name="RunDate" value="2021-12-15 11:59:14.166 -0700"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="advent4.script" assertions="1" status="failure"  time="6.206759">
+    <failure type="FAILURE" message="Invalid Range: Only numeric, date/time, and character ranges are supported (got &quot;finalScore&quot; TO &quot;0&quot;). -- Execution Time 0:00:06 advent4.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

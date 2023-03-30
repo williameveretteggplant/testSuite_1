@@ -1,0 +1,21 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running advent3.script",
+      "timestamp" : "2021-12-14 14:37:17.566 -0700"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.001895\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2021-12-14 14:37:17 -0700\", Successes:\"0\", TestCase:\"advent3.script\", Warnings:\"0\")",
+      "timestamp" : "2021-12-14 14:37:17.570 -0700"
+    },
+    {
+      "message" : "SenseTalk Compiler Exception: in advent3:\\nSyntax Error at line 24: Syntax Error - can't understand \"repeat\" at character 6 -- Execution Time 0:00:00 advent3.script",
+      "timestamp" : "2021-12-14 14:37:17.649 -0700",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2021-12-14 14:37:17.567 -0700"
+}

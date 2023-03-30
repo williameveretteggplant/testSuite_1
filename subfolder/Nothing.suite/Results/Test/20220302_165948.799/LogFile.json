@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Test.script",
+      "timestamp" : "2022-03-02 16:59:48.801 -0700"
+    },
+    {
+      "handlerName" : "on_test",
+      "message" : "Remote Connection Unavailable",
+      "timestamp" : "2022-03-02 16:59:48.854 -0700",
+      "identifier" : "Exception",
+      "scriptName" : "Test.script",
+      "handlerLine" : 4
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.219989\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-02 16:59:48 -0700\", Successes:\"0\", TestCase:\"Test.script\", Warnings:\"0\")",
+      "timestamp" : "2022-03-02 16:59:49.023 -0700"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "No Remote Connection: startmovie Error - Remote Connection Unavailable -- Execution Time 0:00:00 Test.script",
+      "timestamp" : "2022-03-02 16:59:49.040 -0700"
+    }
+  ],
+  "createdTimestamp" : "2022-03-02 16:59:48.802 -0700"
+}
